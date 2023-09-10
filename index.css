@@ -12,8 +12,8 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 50px;
-    padding: 50px;
+    gap: 30px;
+    padding: 30px;
 }
 
 .container {
@@ -77,9 +77,10 @@ label:hover {
 @media only screen and (max-width: 600px) {
     .container {
       flex-direction: column;
+      width: 100%;
     }
 
     input {
-        width: 300px;
+        width: 100%;
     }
 }
